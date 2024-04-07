@@ -1,0 +1,98 @@
+.depage{
+    position: relative;
+    
+    width:95%;
+    
+    background-color:#50C878;
+align-self: center;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+
+    
+    
+}
+body{
+    background: linear-gradient(to bottom right, #00cc00, #3399ff);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.deimgmain{
+    position: absolute;
+    top: 20px;
+    box-shadow: lightslategrey;
+    left: 20px;
+    
+}
+.toph{
+    font-size: 40px;
+    position: absolute;
+    left: 950px;
+    top: 20px;
+
+}
+.placeinfo{ font-family:sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+.placedetails{
+position: relative;
+width:95%;
+align-self: center;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid black;
+height: 500px;
+
+}
+.descr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    position:absolute;
+
+    left: 650px;
+    top: 100px;
+   margin-right: 5px;
+   margin-left: 5px;
+    text-align: justify;
+    
+}
+.moreimg{
+    
+    height: 100px;
+    margin-top: 10px;
+    position: relative;
+width:95%;
+align-self: center;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid black;
+height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+#imfl{
+    width: 30%;
+    height: auto;
+    flex-grow: 1;
+}
+.booknowbutton{
+    position: absolute;
+    left: 700px;
+    
+    text-decoration: dashed;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 109px;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.6s ease;
+    background-color: white;
+}
